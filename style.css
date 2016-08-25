@@ -1,0 +1,59 @@
+body {
+	background-color: #000000;
+	overflow: hidden;
+	cursor: default;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+	
+	font-family: lucida console;
+	color: #ff69b4;
+}
+
+iframe {
+	border: 0px;
+}
+
+#background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -69;
+	visibility: hidden;
+}
+
+.rainbow1 {
+    animation: colorRotate 7s linear 0s infinite;
+}
+
+.rainbow2 {
+    animation: colorRotate 4s linear 0s infinite;
+}
+
+.rainbow3 {
+    animation: colorRotate 3s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+    from {
+        color: rgb(255, 0, 0);
+    }
+    16.6% {
+        color: rgb(255, 0, 255);
+    }
+    33.3% {
+        color: rgb(0, 0, 255);
+    }
+    50% {
+        color: rgb(0, 255, 255);
+    }
+    66.6% {
+        color: rgb(0, 255, 0);
+    }
+    83.3% {
+        color: rgb(255, 255, 0);
+    }
+    to {
+        color: rgb(255, 0, 0);
+    }
+}
