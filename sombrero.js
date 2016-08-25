@@ -50,7 +50,7 @@ function sombrero() {
 	//adds sombrero theme	
 	if(loops == 20 && counter == 50) {		
 		var iframe = document.createElement('iframe');
-		iframe.src = 'http://www.youtube.com/v/zE6qVVffM1Q?autoplay=1&loop=1&playlist=zE6qVVffM1Q';
+		iframe.src = 'https://www.youtube.com/v/zE6qVVffM1Q?autoplay=1&loop=1&playlist=zE6qVVffM1Q';
 		iframe.width = 0;
 		iframe.height = 0;
 		document.getElementById("dorado").appendChild(iframe);
